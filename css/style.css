@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.contanter{
+    margin: 0 auto;
+    width: 1500px;
+}
 header{
     width: 100%;
     background-color: antiquewhite;
@@ -41,9 +45,7 @@ header .nav{
     align-items: center;
     
 }
-.nav > .menu{
-    /* padding-right: 450px; */
-}
+
 .nav > .menu > ul>li{
     display: inline;
     padding: 20px 20px;
