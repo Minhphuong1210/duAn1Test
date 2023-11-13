@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.contanter{
-    margin: 0 auto;
-    width: 1500px;
-}
+
 header{
     width: 100%;
     background-color: antiquewhite;
@@ -92,3 +89,71 @@ header .nav{
 .mr{
     padding-top: 50px;
 }
+.box_tong{
+    position: relative;
+}
+.spct{
+    position: absolute;
+    left:250px;
+    top:200px;
+    width: 1080px;
+    height: 550px;
+
+}
+.img{
+    width: 300px;
+    float: left;
+}
+.img img{
+    width: 300px;
+}
+.spct1{
+    width: 700px;
+    float: right;
+}
+.gia{
+    color: red;
+}
+.color {
+    height: 50px;
+}
+
+.size{
+  margin-top: 30px;
+}
+.size input{
+    margin: 5px 10px;
+    padding: 10px;
+}
+.them input{
+    margin:10px ;
+  width: 400px;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  font-size: 30px;
+}
+.mota p{
+    line-height: 5px;
+}
+
+.them input:hover{
+    background-color: white;
+    color:black;
+}
+.img img:hover{
+    transform: scale(1.3)
+}
+.spcl{
+position: absolute;
+top: 700px;
+left: 300px;
+}
+.spcl2{
+    width: 900px;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 100px;
+}
+
+
